@@ -26,3 +26,11 @@ For example, you will run something like the following (where `root@a91d93f9ffc3
 ```sh
 root@a91d93f9ffc3:/usr/vega-lite# ../linked/install-local-packages.sh
 ```
+
+You can then run linting using standard `npx eslint` commands:
+
+e.g. 
+
+```sh
+root@a91d93f9ffc3:/usr/vega-lite# npx eslint 'test-runtime/**/*.ts'
+```
